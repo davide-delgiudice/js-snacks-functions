@@ -10,6 +10,11 @@ const myname = 'Mario';
 // Dichiara la funzione qui.
 
 function dayTime(greet){
+    const d = new Date();
+    let hour = d.getHours();
+
+    
+
     return;
 }
 
