@@ -5,12 +5,14 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function chosenName(userName) {
-    return ;
+function acceptName(name) {
+    name = (`Ciao ${name}`);
+    return name;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+let chosenName = acceptName(userName);
+console.log(chosenName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
