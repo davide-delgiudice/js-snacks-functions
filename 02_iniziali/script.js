@@ -5,9 +5,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function firstLetter() {
+    return;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
+let result = firstLetter(names);
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
