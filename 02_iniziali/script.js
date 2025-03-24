@@ -24,3 +24,25 @@ let result = letters(names);
 console.log(result);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+
+// Bonus arrow function
+
+const lettersA = (textA) => {
+    let newArrayA = [];
+
+    for(let i=0; i<textA.length; i++){
+        const nameA = textA[i];
+        console.log(nameA);
+
+        newArrayA.push(nameA[0]);
+    }
+
+    return newArrayA;
+}
+
+
+const namesA = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
+
+let resultA = lettersA(namesA);
+console.log(resultA);
