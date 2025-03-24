@@ -16,3 +16,13 @@ let chosenName = acceptName(userName);
 console.log(chosenName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+
+// Bonus Arrow Function
+
+const acceptNameA = (nameA) => nameA = (`Ciao ${nameA}`);
+
+const userNameA = 'Mario';
+
+let chosenNameA = acceptName(userNameA);
+console.log(chosenNameA);
