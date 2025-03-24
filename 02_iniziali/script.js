@@ -5,8 +5,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function firstLetter() {
-    return;
+function firstLetter(string) {
+    let newArray = [];
+
+    for(i=0; i<string.lenght; i++){
+
+    }
+
 }
 
 // Invoca la funzione qui e stampa il risultato in console
