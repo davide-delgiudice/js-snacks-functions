@@ -5,17 +5,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function letters(string) {
+function letters(text) {
     let newArray = [];
 
-    for(i=0; i<string.lenght; i++){
-        let words = string.split('');
+    for(i=0; i<text.lenght; i++){
 
-        const firstWords = words.charAT(0).toUpperCase();
+        const name = text[i];
 
-        const restofWords = words.substring(1);
+        newArray.push(name[0]);
 
-        const newArray = firstWords.push(newArray); 
     }
 
     return newArray;
