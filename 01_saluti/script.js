@@ -5,6 +5,9 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
+function chosenName(userName) {
+    return ;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
