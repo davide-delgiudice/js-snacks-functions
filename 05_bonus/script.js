@@ -5,14 +5,16 @@ buon pomeriggio se è pomeriggio (fino alle 17)
 e buonasera se è sera (oltre le 17)
 */
 
-const name = 'Mario';
-
+const myname = 'Mario';
 
 // Dichiara la funzione qui.
 
+function dayTime(greet){
+    return;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+let t = dayTime(myname);
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
