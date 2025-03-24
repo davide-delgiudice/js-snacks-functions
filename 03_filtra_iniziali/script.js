@@ -10,6 +10,10 @@ function choiceLetter(text) {
     for(let i=0; i<text.length; i++){
         const firstLetter = text[i];
         console.log(firstLetter);
+
+        if(firstLetter[0] === "A") {
+            newArray.push(text[i]);
+        }
     }
     return newArray;
 }
