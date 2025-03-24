@@ -8,12 +8,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function letters(text) {
     let newArray = [];
 
-    for(i=0; i<text.lenght; i++){
-
+    for(i=0; i<text.length; i++){
         const name = text[i];
+        console.log(name);
 
         newArray.push(name[0]);
-
     }
 
     return newArray;
@@ -22,6 +21,6 @@ function letters(text) {
 // Invoca la funzione qui e stampa il risultato in console
 
 let result = letters(names);
-
+console.log(result);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
