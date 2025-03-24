@@ -8,6 +8,12 @@ const word = 'javascript';
 function numVocali(vocale){
     let valore = parseInt(0);
 
+    for(i=0; i<vocale.length; i++){
+        if (['a',  'e', 'i', 'o', 'u'].includes(vocale[i])){
+            valore++;
+        }
+    }
+    
     return valore;
 }
 
