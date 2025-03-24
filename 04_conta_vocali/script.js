@@ -13,13 +13,13 @@ function numVocali(vocale){
             valore++;
         }
     }
-    
+
     return valore;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
 
 let result = numVocali(word);
-
+console.log(`La parola ${word} contiene ${result} vocali`);
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
