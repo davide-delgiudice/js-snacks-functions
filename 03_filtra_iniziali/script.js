@@ -4,10 +4,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function choiceLetter(text) {
+    
 
+    return;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+choiceLetter(names);
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
