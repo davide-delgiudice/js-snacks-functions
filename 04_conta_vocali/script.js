@@ -6,13 +6,14 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 
 function numVocali(vocale){
-    
+    let valore = parseInt(0);
 
-    return
+    return valore;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
 
 let result = numVocali(word);
+
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
