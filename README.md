@@ -21,8 +21,23 @@ EX 02
 -la funzione avrà come elemento names
 -assegno un nome all'attributo
 -creo un array di appoggio vuoto
--creo un ciclo for per esaminare tutto l'attributo
+-creo un ciclo for per esaminare tutto l'attributo (array)
 -creo una variabile a cui assegno l'attributo in posizione i
 -aggiungo la variabile in posizione 0 all'array di appoggio
+-restituisco il nuovo array
+-stampo la funzione
+
+EX 03
+-dichiaro una funzione
+-creo una variabile al di fuori della funzione
+-invoco la funzione assegnandola alla variabile
+-la funzione avrà come elemento names
+-assegno un nome all'attributo
+-creo un array di appoggio
+-creo un ciclo for per esaminare tutto l'attributo (array)
+-creo una variabile a cui assegno l'attributo in posizione i
+-creo un if
+-la variabile in posizione 0 dovrà essere uguale ad una data lettera
+-se vero aggiungo il nome in posizione i al nuovo array
 -restituisco il nuovo array
 -stampo la funzione
