@@ -8,7 +8,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function letters(text) {
     let newArray = [];
 
-    for(i=0; i<text.length; i++){
+    for(let i=0; i<text.length; i++){
         const name = text[i];
         console.log(name);
 

@@ -5,13 +5,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 function choiceLetter(text) {
-    
+    let newArray = [];
 
-    return;
+    for(let i=0; i<text.length; i++){
+        const firstLetter = text[i];
+        console.log(firstLetter);
+    }
+    return newArray;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
 
-choiceLetter(names);
+let result = choiceLetter(names);
+
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
